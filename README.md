@@ -12,7 +12,7 @@ python3 app.py
 
 - After running app.py visit http://0.0.0.0:8889 or http://localhost:8889
 - Login form will appear on the Frontend
-- User the following credential for access
+- Use the following credential for access
 
 | Username | Password | Access |
 | ------ | ------ | ------ |
