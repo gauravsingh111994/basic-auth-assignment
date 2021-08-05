@@ -31,3 +31,18 @@ python3 app.py
 - Internally had implemented wrapper function to block the endpoint if unauthorized access happens
 - Class had been implemented for returning User Access
 - Json config had been made to map the API access
+
+## Images
+
+# Login Page
+![Login](images/1.png?raw=true "Login page")
+
+# Display Page
+![Display](images/2.png?raw=true "Display page")
+
+# Operation Allowed Page
+![Operation](images/3.png?raw=true "Operation page")
+
+# Access Denied Page
+![access denied](images/4.png?raw=true "Access Denied page")
+
