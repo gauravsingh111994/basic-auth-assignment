@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Login Form</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900|RobotoDraft:400,100,300,500,700,900'>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
+
+      <link rel="stylesheet" href="/static/css/style.css">
+</head>
+
+<body>
+
+<div class="pen-title">
+  <h1>Display</h1>
+</div>
+<!-- Form Module-->
+<div class="module form-module">
+  <div class="toggle">
+
+  </div>
+  <div class="form">
+    <h2>Hi, Your are logged in as {{session['userid']}}<br>Access - {{session['privilege']}}</h2>
+
+
+      <a href="/read"><button id="submit-btn">Read</button></a><br><br>
+      <a href="/write"><button id="submit-btn">Write</button></a><br><br>
+      <a href="/del"><button id="submit-btn">Delete</button></a><br><br>
+      <a href="/logout"><button id="submit-btn">Logout</button></a><br><br>
+
+
+  </div>
+
+ 
+</div>
+
+
+</body>
+</html>
