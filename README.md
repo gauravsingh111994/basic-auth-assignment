@@ -34,15 +34,15 @@ python3 app.py
 
 ## Images
 
-# Login Page
+### Login Page
 ![Login](images/1.png?raw=true "Login page")
 
-# Display Page
+### Display Page
 ![Display](images/2.png?raw=true "Display page")
 
-# Operation Allowed Page
+### Operation Allowed Page
 ![Operation](images/3.png?raw=true "Operation page")
 
-# Access Denied Page
+### Access Denied Page
 ![access denied](images/4.png?raw=true "Access Denied page")
 
