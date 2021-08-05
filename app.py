@@ -42,22 +42,25 @@ class userprivilege:
 		elif self.user == "user3":
 			return ["DEL"]
 
+# API for login page
 @app.route("/",methods=['GET'])
 def index():
 	return render_template("/login.html")
 
-
+# API for diplay page
 @app.route("/display",methods=['GET'])
 @logged_in
 def display():
 	return render_template("/display.html")
 
+# API for logout
 @app.route("/logout",methods=['GET'])
 def logout():
 	session["logged_in"] = ""
 	session["privilege"] = []
 	return redirect("/")
 
+# API for login backend which sets user access in the session
 @app.route("/loginB",methods=['POST'])
 def login():
 	userid = request.form.get("user_name","")
@@ -84,16 +87,19 @@ def login():
 	else:
 		return "Invalid credential"
 
+# API for read operation
 @app.route("/read",methods=['GET'])
 @access
 def read():
 	return "Operation of read"
 
+# API for write operation
 @app.route("/write",methods=['GET'])
 @access
 def write():
 	return "Operation of write"
 
+# API for delete operation
 @app.route("/del",methods=['GET'])
 @access
 def delete():
